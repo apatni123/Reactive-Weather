@@ -10,8 +10,8 @@ function WeatherCard(props) {
         </div>
         <div class="card-body">
             <h3 className="card-title">{props.data.city}</h3>
-            <h5 className="card-text">TEMPERATURE DATA HERE</h5>
-            <h5 className="card-text">FORECAST DATA HERE</h5>
+            <h5 className="card-text">{props.data.temperature}</h5>
+            <h5 className="card-text">{props.data.forecast}</h5>
         </div>
     </div>
   );
