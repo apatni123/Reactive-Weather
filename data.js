@@ -12,7 +12,7 @@ const cities = [
     {
       city: 'Paris',
       temperature: 13,
-      forecast: 'Partly cloudy'
+      forecast: 'Partly Cloudy'
     },
     {
       city: 'Tokyo',
@@ -27,7 +27,7 @@ const cities = [
     {
       city: 'Los Angeles',
       temperature: 22,
-      forecast: 'Partly cloudy'
+      forecast: 'Partly Cloudy'
     },
     {
       city: 'Berlin',
@@ -62,7 +62,7 @@ const cities = [
     {
       city: 'Mexico City',
       temperature: 20,
-      forecast: 'Partly cloudy'
+      forecast: 'Partly Cloudy'
     },
     {
       city: 'Rio de Janeiro',
@@ -92,7 +92,7 @@ const cities = [
     {
       city: 'Rome',
       temperature: 14,
-      forecast: 'Partly cloudy'
+      forecast: 'Partly Cloudy'
     },
     {
       city: 'Madrid',
