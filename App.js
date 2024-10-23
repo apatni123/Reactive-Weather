@@ -1,12 +1,16 @@
 import React, {useState} from 'react';
 // Import data and WeatherCard here
 import cities from './data';
-import WeatherCard from './components/WeatherCard'
-import Location from './components/Location'
+import WeatherCard from './components/WeatherCard';
+import Location from './components/Location';
+import Form from './components/Form';
+
 function App() {
     const [location,setLocation] = useState("London")
+    
     return (
         <>
+            <Form location={location} setLocation={setLocation}/>
             <h1 className = "title">REACTIVE WEATHER</h1>
             <h3 className = "subtitle">Up to the minute weather news</h3>
             <Location location={location} setLocation={setLocation} data={cities}/>
@@ -15,6 +19,7 @@ function App() {
                     <WeatherCard key={index} data={city} />
                 ))}
             </div>
+           
         </>
     )
 }

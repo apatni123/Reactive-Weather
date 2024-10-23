@@ -8,7 +8,7 @@ function Location({ location, data }) {
             {cityData ? (
                 <WeatherCard data={cityData} />
             ) : (
-                <p>City not found</p>
+                <p>Location not found</p>
             )}
         </div>
     );
